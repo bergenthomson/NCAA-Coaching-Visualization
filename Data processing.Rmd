@@ -11,14 +11,13 @@ library(dplyr)
 library(gender)
 library(devtools)
 library(genderdata)
-
 ```
 
 
 ```{r}
-install.packages("genderdata", repos = "https://dev.ropensci.org", type = "source")
-install_genderdata_package()
+# Install gender data
 
+install.packages("genderdata", repos = "https://dev.ropensci.org", type = "source")
 devtools::install_github("ropensci/genderdata")
 ```
 
@@ -45,29 +44,19 @@ coaches$firstName
 ```{r}
 # Testing gender library
 
-names <- gender(coaches$firstName, method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"))
-View(names)
 
-names <- names %>%
-  distinct(name, proportion_male, proportion_female, gender)
+# Attempt to Mutate
 
-
-
-
-
-coaches <- coaches %>%
-  mutate(gender = ifelse(is.null(gender(firstName, method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"), years = 2012)[1,4]), "none", gender(firstName, method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"), years = 2012)[1,4]))
-
+#coaches <- coaches %>%
+#  mutate(gender = ifelse(is.null(gender(firstName, method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"), years = 2012)[1,4]), "none", gender(firstName, method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"), years = 2012)[1,4]))
 
 gender(coaches$firstName[], method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"), years = 2012)[1,4]
 
+# Did not work
 
-gender_df(coaches, 
-          method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"), 
-          name_col = "firstName")
-
-
-
+#gender_df(coaches, 
+#          method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"), 
+#          name_col = "firstName")
 
 ```
 
@@ -75,6 +64,7 @@ gender_df(coaches,
 
 
 ```{r}
+# Distinct names
 names <- gender(coaches$firstName, method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"))
 View(names)
 
@@ -83,11 +73,8 @@ names <- names %>%
 
 names$name
 
+# Join Names and Coaches
 coaches <- coaches %>%
   full_join(names, coaches, by = c("firstName" = "name"))
-
-
-
-
 ```
 
