@@ -25,9 +25,11 @@ devtools::install_github("ropensci/genderdata")
 ```{r}
 # Read in Data
 coaches <- read_csv("data/coaches.csv")
+collegeLocations <- read_csv("data/collegeLocations.csv")
 
 head(coaches)
 View(coaches)
+View(collegeLocations)
 
 coaches <- coaches %>%
 separate(Name, c("lastName", "firstName"), sep = ", ", extra = "merge") %>%
