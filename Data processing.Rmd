@@ -12,18 +12,34 @@ library(gender)
 
 ```
 
+
+```{r}
+install.packages("genderdata", repos = "https://dev.ropensci.org", type = "source")
+```
+
+
 ```{r}
 # Read in Data
 coaches <- read_csv("data/coaches.csv")
 
 head(coaches)
 View(coaches)
+
+coaches <- coaches %>%
+  separate(Name, c("lastName", "firstName"), sep = ",", extra = "merge")
+ 
 ```
 
 
 ```{r}
 # Testing gender library
 
+demo_df <- tibble(names = coaches$firstName,
+                      birth_year = 2000,
+                      stringsAsFactors = FALSE)
+head(demo_df)
 
+gender_df(demo_df, method = "demo",
+          name_col = "names", year_col = "birth_year")
 ```
 
