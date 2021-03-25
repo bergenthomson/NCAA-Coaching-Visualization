@@ -9,12 +9,17 @@ output: html_document
 library(tidyverse)
 library(dplyr)
 library(gender)
+library(devtools)
+library(genderdata)
 
 ```
 
 
 ```{r}
 install.packages("genderdata", repos = "https://dev.ropensci.org", type = "source")
+install_genderdata_package()
+
+devtools::install_github("ropensci/genderdata")
 ```
 
 
@@ -26,20 +31,63 @@ head(coaches)
 View(coaches)
 
 coaches <- coaches %>%
-  separate(Name, c("lastName", "firstName"), sep = ",", extra = "merge")
- 
+separate(Name, c("lastName", "firstName"), sep = ", ", extra = "merge") %>%
+  mutate(firstName = substr(firstName, 1, nchar(firstName)-1))
+
+
+
+class(coaches$firstName) 
+
+coaches$firstName
 ```
 
 
 ```{r}
 # Testing gender library
 
-demo_df <- tibble(names = coaches$firstName,
-                      birth_year = 2000,
-                      stringsAsFactors = FALSE)
-head(demo_df)
+names <- gender(coaches$firstName, method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"))
+View(names)
 
-gender_df(demo_df, method = "demo",
-          name_col = "names", year_col = "birth_year")
+names <- names %>%
+  distinct(name, proportion_male, proportion_female, gender)
+
+
+
+
+
+coaches <- coaches %>%
+  mutate(gender = ifelse(is.null(gender(firstName, method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"), years = 2012)[1,4]), "none", gender(firstName, method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"), years = 2012)[1,4]))
+
+
+gender(coaches$firstName[], method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"), years = 2012)[1,4]
+
+
+gender_df(coaches, 
+          method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"), 
+          name_col = "firstName")
+
+
+
+
+```
+
+
+
+
+```{r}
+names <- gender(coaches$firstName, method = c("ssa", "ipums", "napp", "kantrowitz", "genderize", "demo"))
+View(names)
+
+names <- names %>%
+  distinct(name, proportion_male, proportion_female, gender)
+
+names$name
+
+coaches <- coaches %>%
+  full_join(names, coaches, by = c("firstName" = "name"))
+
+
+
+
 ```
 
