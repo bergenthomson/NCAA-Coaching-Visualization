@@ -1,0 +1,6 @@
+Number of Sports Coached by Men: 5403
+Number of Sports Coached by Women: 1891
+Number of Men's Sports Coached by Men: 3040
+Number of Women's Sports Coached by Men: 2350
+Number of Men's Sports Coached by Women: 221
+Number of Women's Sports Coached by Women: 1666
