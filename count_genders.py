@@ -4,11 +4,17 @@ coaches = pd.read_csv("data/coaches_with_latlng.csv")
 coachGenders = coaches["gender"]
 sports = coaches["Sport"]
 coachGenderSportGender = []
+numMenSports = 0
+numWomenSports = 0
+numTotalSports = 0
 for i in range(len(coachGenders)):
-    if "Men" in sports[i] or sports[i] in ["Football", "Baseball"]:
+    if "Men" in sports[i] or sports[i] in ["Football", "Baseball", "Mixed Rifle"]:
         coachGenderSportGender.append((coachGenders[i], "men"))
-    if "Women" in sports[i] or sports[i] in ["Field Hockey", "Softball"]:
+        numMenSports += 1
+    if "Women" in sports[i] or sports[i] in ["Field Hockey", "Softball", "Mixed Rifle"]:
         coachGenderSportGender.append((coachGenders[i], "women"))
+        numWomenSports += 1
+    numTotalSports += 1
 
 
 menCoaches = 0
@@ -40,3 +46,20 @@ print("Number of Men's Sports Coached by Men: " + str(menCoachingMenSports))
 print("Number of Women's Sports Coached by Men: " + str(menCoachingWomenSports))
 print("Number of Men's Sports Coached by Women: " + str(womenCoachingMenSports))
 print("Number of Women's Sports Coached by Women: " + str(womenCoachingWomenSports))
+
+# summaryDataFrame = pd.DataFrame(data = {'Men\'s Sports': [menCoachingMenSports, womenCoachingMenSports], 'Women\'s Sports': [menCoachingWomenSports, womenCoachingWomenSports], 'Overall': [menCoaches, womenCoaches]})
+# summaryDataFrame.index = ['Man Head Coach', 'Woman Head Coach']
+# summaryDataFrame.to_csv("data/summary_stats.csv")
+
+menSportManCoachPercentage = (menCoachingMenSports/numMenSports) * 100
+menSportWomanCoachPercentage = (womenCoachingMenSports/numMenSports) * 100
+
+womenSportManCoachPercentage = (menCoachingWomenSports/numWomenSports) * 100
+womenSportWomanCoachPercentage = (womenCoachingWomenSports/numWomenSports) * 100
+
+totalWomenCoachPercentage = ((womenCoachingMenSports + womenCoachingWomenSports)/numTotalSports) * 100
+totalMenCoachPercentage = ((menCoachingMenSports + menCoachingWomenSports)/numTotalSports) * 100
+
+
+summaryDataFrame = pd.DataFrame(data = { 'Sport Gender': ['Men\'s Sports', 'Men\'s Sports', 'Women\'s Sports', 'Women\'s Sports', 'Overall', 'Overall'], 'Coach Gender': ['Man', 'Woman', 'Man', 'Woman', 'Man', 'Woman'], 'Number': [menCoachingMenSports, womenCoachingMenSports, menCoachingWomenSports, womenCoachingWomenSports, menCoaches, womenCoaches], 'Percentage': [menSportManCoachPercentage, menSportWomanCoachPercentage, womenSportManCoachPercentage, womenSportWomanCoachPercentage, totalMenCoachPercentage, totalWomenCoachPercentage] })
+summaryDataFrame.to_csv("data/summary_stats.csv", index=False)
