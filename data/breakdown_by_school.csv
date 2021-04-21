@@ -1,0 +1,387 @@
+School,Number of Total Coaches,Number of Men Coaches,Number of Women Coaches,Percentage Men Coaches,Percentage Women Coaches
+Abilene Christian University,17,13,4,76.47,23.53
+Alabama A&M University,16,8,8,50.0,50.0
+Alabama State University,18,14,4,77.78,22.22
+Alcorn State University,15,11,4,73.33,26.67
+American International College,1,1,0,100.0,0.0
+American University,16,13,3,81.25,18.75
+Appalachian State University,20,16,4,80.0,20.0
+Arizona State University,25,20,5,80.0,20.0
+Arkansas State University,16,15,1,93.75,6.25
+Auburn University,20,16,4,80.0,20.0
+Augusta University,2,1,1,50.0,50.0
+Austin Peay State University,14,7,7,50.0,50.0
+Ball State University,19,14,5,73.68,26.32
+Baylor University,17,16,1,94.12,5.88
+Bellarmine University,1,1,0,100.0,0.0
+Belmont University,17,13,4,76.47,23.53
+Bemidji State University,2,2,0,100.0,0.0
+Bentley University,1,1,0,100.0,0.0
+Bethune-Cookman University,17,11,6,64.71,35.29
+Binghamton University,21,15,6,71.43,28.57
+Bloomsburg University of Pennsylvania,1,1,0,100.0,0.0
+Boise State University,19,14,5,73.68,26.32
+Boston College,29,24,5,82.76,17.24
+Boston University,22,11,11,50.0,50.0
+Bowling Green State University,18,8,10,44.44,55.56
+Bradley University,15,11,4,73.33,26.67
+Brigham Young University,21,17,4,80.95,19.05
+Brown University,33,22,11,66.67,33.33
+Bryant University,22,16,6,72.73,27.27
+Bucknell University,27,23,4,85.19,14.81
+Butler University,20,18,2,90.0,10.0
+California Baptist University,20,19,1,95.0,5.0
+California Polytechnic State University,21,15,6,71.43,28.57
+"California State University, Bakersfield",16,9,7,56.25,43.75
+"California State University, Fresno",20,15,5,75.0,25.0
+"California State University, Fullerton",15,11,4,73.33,26.67
+"California State University, Northridge",18,16,2,88.89,11.11
+"California State University, Sacramento",21,19,2,90.48,9.52
+Campbell University,21,18,3,85.71,14.29
+Canisius College,20,16,4,80.0,20.0
+Central Connecticut State University,16,12,4,75.0,25.0
+Central Michigan University,18,7,11,38.89,61.11
+Charleston Southern University,16,12,4,75.0,25.0
+Chicago State University,15,13,2,86.67,13.33
+Clarion University of Pennsylvania,1,1,0,100.0,0.0
+Clarkson University,2,2,0,100.0,0.0
+Clemson University,18,14,4,77.78,22.22
+Cleveland State University,19,14,5,73.68,26.32
+Coastal Carolina University,19,9,10,47.37,52.63
+Colgate University,24,13,11,54.17,45.83
+College of Charleston (South Carolina),16,10,6,62.5,37.5
+College of the Holy Cross,25,18,7,72.0,28.0
+Colorado College,2,2,0,100.0,0.0
+Colorado State University,16,14,2,87.5,12.5
+Columbia University-Barnard College,26,17,9,65.38,34.62
+Coppin State University,14,11,3,78.57,21.43
+Cornell University,28,23,5,82.14,17.86
+Creighton University,14,12,2,85.71,14.29
+Dallas Baptist University,1,1,0,100.0,0.0
+Dartmouth College,28,20,8,71.43,28.57
+Davidson College,21,14,7,66.67,33.33
+DePaul University,15,12,3,80.0,20.0
+Delaware State University,11,7,4,63.64,36.36
+Drake University,18,14,4,77.78,22.22
+Drexel University,15,12,3,80.0,20.0
+Duke University,27,20,7,74.07,25.93
+Duquesne University,17,12,5,70.59,29.41
+East Carolina University,20,15,5,75.0,25.0
+East Tennessee State University,18,15,3,83.33,16.67
+Eastern Illinois University,20,15,5,75.0,25.0
+Eastern Kentucky University,16,11,5,68.75,31.25
+Eastern Michigan University,17,11,6,64.71,35.29
+Eastern Washington University,14,9,5,64.29,35.71
+Edinboro University of Pennsylvania,1,1,0,100.0,0.0
+Elon University,17,13,4,76.47,23.53
+Fairfield University,19,16,3,84.21,15.79
+"Fairleigh Dickinson University, Metropolitan Campus",19,11,8,57.89,42.11
+Ferris State University,1,1,0,100.0,0.0
+Florida A&M University,16,6,10,37.5,62.5
+Florida Atlantic University,19,12,7,63.16,36.84
+Florida Gulf Coast University,15,11,4,73.33,26.67
+Florida International University,18,13,5,72.22,27.78
+Florida State University,20,14,6,70.0,30.0
+Fordham University,21,17,4,80.95,19.05
+Francis Marion University,1,1,0,100.0,0.0
+Franklin & Marshall College,1,1,0,100.0,0.0
+Furman University,20,16,4,80.0,20.0
+Gardner-Webb University,22,21,1,95.45,4.55
+George Mason University,22,19,3,86.36,13.64
+George Washington University,23,16,7,69.57,30.43
+Georgetown University,24,13,11,54.17,45.83
+Georgia Institute of Technology,17,12,5,70.59,29.41
+Georgia Southern University,16,9,7,56.25,43.75
+Georgia State University,16,12,4,75.0,25.0
+Gonzaga University,17,14,3,82.35,17.65
+Grambling State University,15,13,2,86.67,13.33
+Grand Canyon University,21,15,6,71.43,28.57
+Hampton University,17,16,1,94.12,5.88
+Harvard University,34,27,7,79.41,20.59
+High Point University,16,12,4,75.0,25.0
+Hobart and William Smith Colleges,1,1,0,100.0,0.0
+Hofstra University,20,16,4,80.0,20.0
+Houston Baptist University,17,8,9,47.06,52.94
+Howard University,19,17,2,89.47,10.53
+Idaho State University,15,8,7,53.33,46.67
+Illinois State University,19,13,6,68.42,31.58
+Indiana State University,15,8,7,53.33,46.67
+"Indiana University, Bloomington",24,20,4,83.33,16.67
+Indiana University-Purdue University Indianapolis,18,15,3,83.33,16.67
+Iona College,19,15,4,78.95,21.05
+Iowa State University,18,16,2,88.89,11.11
+Jackson State University,16,12,4,75.0,25.0
+Jacksonville State University,17,16,1,94.12,5.88
+Jacksonville University,18,14,4,77.78,22.22
+James Madison University,18,12,6,66.67,33.33
+Johns Hopkins University,2,1,1,50.0,50.0
+Kansas State University,16,14,2,87.5,12.5
+Kennesaw State University,18,15,3,83.33,16.67
+Kent State University,20,18,2,90.0,10.0
+La Salle University,24,21,3,87.5,12.5
+Lafayette College,22,12,10,54.55,45.45
+Lake Superior State University,1,1,0,100.0,0.0
+Lamar University,17,13,4,76.47,23.53
+Lehigh University,25,17,8,68.0,32.0
+Liberty University,20,17,3,85.0,15.0
+Lipscomb University,17,14,3,82.35,17.65
+Lock Haven University of Pennsylvania,2,1,1,50.0,50.0
+Long Beach State University,20,15,5,75.0,25.0
+Long Island University,20,14,6,70.0,30.0
+Longwood University,14,10,4,71.43,28.57
+Louisiana State University,21,16,5,76.19,23.81
+Louisiana Tech University,16,13,3,81.25,18.75
+Loyola Marymount University,20,17,3,85.0,15.0
+Loyola University Chicago,15,11,4,73.33,26.67
+Loyola University Maryland,17,11,6,64.71,35.29
+Manhattan College,19,14,5,73.68,26.32
+Marist College,22,20,2,90.91,9.09
+Marquette University,16,13,3,81.25,18.75
+Marshall University,16,14,2,87.5,12.5
+Massachusetts Institute of Technology,1,0,1,0.0,100.0
+McNeese State University,16,13,3,81.25,18.75
+Mercer University,18,14,4,77.78,22.22
+Mercyhurst University,2,2,0,100.0,0.0
+Merrimack College,2,1,1,50.0,50.0
+Miami University (Ohio),18,12,6,66.67,33.33
+Michigan State University,25,19,6,76.0,24.0
+Michigan Technological University,1,1,0,100.0,0.0
+Middle Tennessee State University,17,16,1,94.12,5.88
+"Minnesota State University, Mankato",2,2,0,100.0,0.0
+Mississippi State University,16,13,3,81.25,18.75
+Mississippi Valley State University,15,8,7,53.33,46.67
+Missouri State University,17,12,5,70.59,29.41
+Monmouth University,23,16,7,69.57,30.43
+Montana State University-Bozeman,15,13,2,86.67,13.33
+Morehead State University,16,14,2,87.5,12.5
+Morgan State University,14,13,1,92.86,7.14
+Mount St. Mary's University,21,17,4,80.95,19.05
+Murray State University,15,12,3,80.0,20.0
+New Jersey Institute of Technology,19,18,1,94.74,5.26
+New Mexico State University,16,13,3,81.25,18.75
+Niagara University,18,12,6,66.67,33.33
+Nicholls State University,17,8,9,47.06,52.94
+Norfolk State University,14,10,4,71.43,28.57
+North Carolina A&T State University,17,15,2,88.24,11.76
+North Carolina Central University,15,13,2,86.67,13.33
+North Carolina State University,23,15,8,65.22,34.78
+North Dakota State University,16,15,1,93.75,6.25
+Northeastern University,17,13,4,76.47,23.53
+Northern Arizona University,15,12,3,80.0,20.0
+Northern Illinois University,17,10,7,58.82,41.18
+Northern Kentucky University,17,14,3,82.35,17.65
+Northern Michigan University,1,1,0,100.0,0.0
+Northwestern State University,14,13,1,92.86,7.14
+Northwestern University,21,13,8,61.9,38.1
+Oakland University,18,11,7,61.11,38.89
+Ohio University,16,14,2,87.5,12.5
+Oklahoma State University,17,17,0,100.0,0.0
+Old Dominion University,16,10,6,62.5,37.5
+Oral Roberts University,16,14,2,87.5,12.5
+Oregon State University,16,12,4,75.0,25.0
+Pennsylvania State University,31,23,8,74.19,25.81
+Pepperdine University,18,11,7,61.11,38.89
+Portland State University,15,11,4,73.33,26.67
+Prairie View A&M University,18,12,6,66.67,33.33
+Presbyterian College,15,11,4,73.33,26.67
+Princeton University,30,19,11,63.33,36.67
+Providence College,19,16,3,84.21,15.79
+Purdue University,20,17,3,85.0,15.0
+Purdue University Fort Wayne,14,8,6,57.14,42.86
+Quinnipiac University,19,10,9,52.63,47.37
+Radford University,16,12,4,75.0,25.0
+Rensselaer Polytechnic Institute,2,2,0,100.0,0.0
+Rice University,16,13,3,81.25,18.75
+Rider University,20,18,2,90.0,10.0
+Robert Morris University,16,11,5,68.75,31.25
+Rochester Institute of Technology,2,2,0,100.0,0.0
+"Rutgers, The State University of New Jersey, New Brunswick",24,17,7,70.83,29.17
+Sacred Heart University,30,22,8,73.33,26.67
+Saint Francis University (Pennsylvania),23,15,8,65.22,34.78
+Saint Joseph's University,19,13,6,68.42,31.58
+Saint Louis University,18,14,4,77.78,22.22
+Saint Mary's College of California,16,14,2,87.5,12.5
+Saint Peter's University,16,15,1,93.75,6.25
+Sam Houston State University,17,16,1,94.12,5.88
+Samford University,17,14,3,82.35,17.65
+San Diego State University,19,10,9,52.63,47.37
+San Jose State University,22,10,12,45.45,54.55
+Santa Clara University,19,16,3,84.21,15.79
+Savannah State University,15,14,1,93.33,6.67
+Seattle University,20,11,9,55.0,45.0
+Seton Hall University,14,10,4,71.43,28.57
+Siena College,21,19,2,90.48,9.52
+South Carolina State University,14,10,4,71.43,28.57
+South Dakota State University,18,16,2,88.89,11.11
+Southeast Missouri State University,15,10,5,66.67,33.33
+Southeastern Louisiana University,9,8,1,88.89,11.11
+Southern Illinois University Edwardsville,16,13,3,81.25,18.75
+Southern Illinois University at Carbondale,16,7,9,43.75,56.25
+Southern Methodist University,16,10,6,62.5,37.5
+"Southern University, Baton Rouge",15,11,4,73.33,26.67
+Southern Utah University,17,15,2,88.24,11.76
+St. Bonaventure University,17,16,1,94.12,5.88
+St. Cloud State University,2,2,0,100.0,0.0
+St. Francis College Brooklyn,19,15,4,78.95,21.05
+St. John's University (New York),17,12,5,70.59,29.41
+St. Lawrence University,2,2,0,100.0,0.0
+Stanford University,32,23,9,71.88,28.12
+Stephen F. Austin State University,17,13,4,76.47,23.53
+Stetson University,17,12,5,70.59,29.41
+Stony Brook University,18,14,4,77.78,22.22
+Syracuse University,19,17,2,89.47,10.53
+Temple University,18,13,5,72.22,27.78
+Tennessee State University,15,4,11,26.67,73.33
+Tennessee Technological University,14,11,3,78.57,21.43
+"Texas A&M University, College Station",19,16,3,84.21,15.79
+Texas A&M University-Corpus Christi,16,13,3,81.25,18.75
+Texas Christian University,19,16,3,84.21,15.79
+Texas Southern University,16,9,7,56.25,43.75
+Texas State University,16,5,11,31.25,68.75
+Texas Tech University,17,16,1,94.12,5.88
+The Citadel,15,8,7,53.33,46.67
+The Ohio State University,33,20,13,60.61,39.39
+The University of North Carolina at Charlotte,18,14,4,77.78,22.22
+The University of North Carolina at Greensboro,18,15,3,83.33,16.67
+The University of Southern Mississippi,16,13,3,81.25,18.75
+The University of Texas Rio Grande Valley,16,15,1,93.75,6.25
+The University of Tulsa,17,14,3,82.35,17.65
+Towson University,19,12,7,63.16,36.84
+Troy University,16,13,3,81.25,18.75
+Tulane University,16,12,4,75.0,25.0
+U.S. Air Force Academy,27,24,3,88.89,11.11
+U.S. Military Academy,25,22,3,88.0,12.0
+U.S. Naval Academy,26,21,5,80.77,19.23
+Union College (New York),2,2,0,100.0,0.0
+University at Albany,18,15,3,83.33,16.67
+"University at Buffalo, the State University of New York",16,8,8,50.0,50.0
+University of Akron,18,14,4,77.78,22.22
+University of Alabama,21,17,4,80.95,19.05
+University of Alabama at Birmingham,18,13,5,72.22,27.78
+University of Alabama in Huntsville,1,1,0,100.0,0.0
+University of Alaska Anchorage,2,1,1,50.0,50.0
+University of Alaska Fairbanks,1,1,0,100.0,0.0
+University of Arizona,21,19,2,90.48,9.52
+University of Arkansas at Little Rock,14,12,2,85.71,14.29
+"University of Arkansas, Fayetteville",19,15,4,78.95,21.05
+"University of Arkansas, Pine Bluff",15,13,2,86.67,13.33
+"University of California, Berkeley",28,13,15,46.43,53.57
+"University of California, Davis",23,14,9,60.87,39.13
+"University of California, Irvine",18,14,4,77.78,22.22
+"University of California, Los Angeles",25,13,12,52.0,48.0
+"University of California, Riverside",17,14,3,82.35,17.65
+"University of California, Santa Barbara",18,14,4,77.78,22.22
+University of Central Arkansas,18,14,4,77.78,22.22
+University of Central Florida,16,8,8,50.0,50.0
+University of Cincinnati,19,7,12,36.84,63.16
+"University of Colorado, Boulder",17,13,4,76.47,23.53
+University of Connecticut,24,18,6,75.0,25.0
+University of Dayton,17,13,4,76.47,23.53
+University of Delaware,21,12,9,57.14,42.86
+University of Denver,17,14,3,82.35,17.65
+University of Detroit Mercy,18,17,1,94.44,5.56
+University of Evansville,17,16,1,94.12,5.88
+University of Florida,21,16,5,76.19,23.81
+University of Georgia,20,17,3,85.0,15.0
+University of Hartford,16,7,9,43.75,56.25
+"University of Hawaii, Manoa",19,15,4,78.95,21.05
+University of Houston,17,15,2,88.24,11.76
+University of Idaho,16,14,2,87.5,12.5
+University of Illinois Chicago,18,9,9,50.0,50.0
+University of Illinois Urbana-Champaign,21,15,6,71.43,28.57
+University of Iowa,24,17,7,70.83,29.17
+University of Kansas,18,15,3,83.33,16.67
+University of Kentucky,22,20,2,90.91,9.09
+University of Louisiana Monroe,17,16,1,94.12,5.88
+University of Louisiana at Lafayette,15,13,2,86.67,13.33
+University of Louisville,23,18,5,78.26,21.74
+University of Maine,17,13,4,76.47,23.53
+University of Maryland Eastern Shore,14,11,3,78.57,21.43
+"University of Maryland, Baltimore County",17,13,4,76.47,23.53
+"University of Maryland, College Park",20,14,6,70.0,30.0
+University of Massachusetts Lowell,16,12,4,75.0,25.0
+"University of Massachusetts, Amherst",21,15,6,71.43,28.57
+University of Memphis,19,16,3,84.21,15.79
+University of Miami (Florida),18,8,10,44.44,55.56
+University of Michigan,29,21,8,72.41,27.59
+University of Minnesota Duluth,2,1,1,50.0,50.0
+"University of Minnesota, Twin Cities",25,15,10,60.0,40.0
+University of Mississippi,17,10,7,58.82,41.18
+"University of Missouri, Columbia",20,16,4,80.0,20.0
+University of Missouri-Kansas City,16,6,10,37.5,62.5
+University of Montana,15,12,3,80.0,20.0
+University of Nebraska Omaha,14,12,2,85.71,14.29
+"University of Nebraska, Lincoln",23,19,4,82.61,17.39
+"University of Nevada, Las Vegas",18,10,8,55.56,44.44
+"University of Nevada, Reno",15,10,5,66.67,33.33
+University of New Hampshire,20,15,5,75.0,25.0
+University of New Mexico,18,14,4,77.78,22.22
+University of New Orleans,14,12,2,85.71,14.29
+University of North Alabama,14,12,2,85.71,14.29
+University of North Carolina Asheville,16,12,4,75.0,25.0
+University of North Carolina Wilmington,20,15,5,75.0,25.0
+"University of North Carolina, Chapel Hill",28,22,6,78.57,21.43
+University of North Dakota,17,10,7,58.82,41.18
+University of North Florida,19,14,5,73.68,26.32
+University of North Texas,16,14,2,87.5,12.5
+University of Northern Colorado,19,16,3,84.21,15.79
+University of Northern Iowa,17,15,2,88.24,11.76
+University of Notre Dame,26,21,5,80.77,19.23
+University of Oklahoma,21,14,7,66.67,33.33
+University of Oregon,19,14,5,73.68,26.32
+University of Pennsylvania,28,23,5,82.14,17.86
+University of Pittsburgh,18,16,2,88.89,11.11
+University of Portland,16,13,3,81.25,18.75
+University of Rhode Island,18,11,7,61.11,38.89
+University of Richmond,17,11,6,64.71,35.29
+University of San Diego,16,10,6,62.5,37.5
+University of San Francisco,11,9,2,81.82,18.18
+University of South Alabama,17,15,2,88.24,11.76
+University of South Carolina Upstate,15,13,2,86.67,13.33
+"University of South Carolina, Columbia",20,17,3,85.0,15.0
+University of South Dakota,17,15,2,88.24,11.76
+University of South Florida,18,12,6,66.67,33.33
+University of Southern California,23,17,6,73.91,26.09
+University of Tennessee at Chattanooga,15,13,2,86.67,13.33
+University of Tennessee at Martin,17,14,3,82.35,17.65
+"University of Tennessee, Knoxville",20,8,12,40.0,60.0
+University of Texas at Arlington,15,12,3,80.0,20.0
+University of Texas at Austin,20,17,3,85.0,15.0
+University of Texas at El Paso,15,10,5,66.67,33.33
+University of Texas at San Antonio,17,13,4,76.47,23.53
+University of Toledo,16,9,7,56.25,43.75
+University of Utah,20,16,4,80.0,20.0
+University of Vermont,18,14,4,77.78,22.22
+University of Virginia,26,19,7,73.08,26.92
+University of Washington,21,11,10,52.38,47.62
+University of Wisconsin-Green Bay,16,15,1,93.75,6.25
+University of Wisconsin-Madison,23,16,7,69.57,30.43
+University of Wisconsin-Milwaukee,15,14,1,93.33,6.67
+University of Wyoming,17,16,1,94.12,5.88
+University of the Incarnate Word,22,19,3,86.36,13.64
+University of the Pacific,17,16,1,94.12,5.88
+Utah State University,16,14,2,87.5,12.5
+Utah Valley University,16,15,1,93.75,6.25
+Valparaiso University,21,15,6,71.43,28.57
+Vanderbilt University,16,14,2,87.5,12.5
+Villanova University,24,17,7,70.83,29.17
+Virginia Commonwealth University,17,12,5,70.59,29.41
+Virginia Military Institute,17,17,0,100.0,0.0
+Virginia Polytechnic Institute and State University,22,19,3,86.36,13.64
+Wagner College,22,19,3,86.36,13.64
+Wake Forest University,18,14,4,77.78,22.22
+Washington State University,17,12,5,70.59,29.41
+Weber State University,16,11,5,68.75,31.25
+West Virginia University,18,16,2,88.89,11.11
+Western Carolina University,16,13,3,81.25,18.75
+Western Illinois University,18,10,8,55.56,44.44
+Western Kentucky University,16,15,1,93.75,6.25
+Western Michigan University,16,9,7,56.25,43.75
+Wichita State University,15,13,2,86.67,13.33
+William & Mary,23,18,5,78.26,21.74
+Winthrop University,18,13,5,72.22,27.78
+Wofford College,19,14,5,73.68,26.32
+Wright State University,14,11,3,78.57,21.43
+Xavier University,18,15,3,83.33,16.67
+Yale University,29,20,9,68.97,31.03
+Youngstown State University,19,18,1,94.74,5.26

@@ -1,9 +1,10 @@
 import pandas as pd
 from collections import OrderedDict
 
-coaches = pd.read_csv("data/coaches_with_latlng.csv")
+coaches = pd.read_csv("data/coaches_duplicate_sports_removed.csv")
 coachGenders = coaches["gender"]
 sports = coaches["Sport"]
+schools = coaches["School"]
 
 
 def getCoachGenderCounts(sport):
@@ -14,13 +15,13 @@ def getCoachGenderCounts(sport):
                 numCoachesByGender["man"] += 1
             else:
                 numCoachesByGender["woman"] += 1
-        if sports[i] == "Men's Basketball" and coachGenders[i] == "female":
-            print(coaches["School"][i])
     return numCoachesByGender
 
 # To keep track of all the unique sports and their counts
 sportsWithTotalCount = OrderedDict()
 for i in range(len(sports)):
+    # if sports[i] == "Men's Tennis" and coachGenders[i] == "female":
+    #     print(schools[i])
     if sports[i] not in sportsWithTotalCount:
         sportsWithTotalCount[sports[i]] = 1
     else:
