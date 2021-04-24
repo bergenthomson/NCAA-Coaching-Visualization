@@ -45,3 +45,18 @@ for s in sportsWithTotalCount.keys():
 
 df = pd.DataFrame(data = { "Sport": list(sportsWithTotalCount.keys()), "Number of Total Coaches": list(sportsWithTotalCount.values()), "Number of Men Coaches": list(sportsWithMenCoachCounts.values()), "Number of Women Coaches": list(sportsWithWomenCoachCounts.values()), "Percentage Men Coaches": list(sportsWithMenCoachPercentage.values()), "Percentage Women Coaches": list(sportsWithWomenCoachPercentage.values()) })
 df.to_csv("data/breakdown_by_sport.csv", index=False)
+
+
+# There's probably an easier way to do this in R...
+sports = df["Sport"]
+numTotalCoaches = df["Number of Total Coaches"]
+numMenCoaches = df["Number of Men Coaches"]
+numWomenCoaches = df["Number of Women Coaches"]
+percentageMenCoaches = df["Percentage Men Coaches"]
+percentageWomenCoaches = df["Percentage Women Coaches"]
+denormalizedDf = pd.DataFrame(columns = ['Sport', 'Head Coach Gender', 'Percentage'])
+for i in range(len(sports)):
+    denormalizedDf = denormalizedDf.append({'Sport': sports[i], 'Head Coach Gender': 'Man', 'Percentage': percentageMenCoaches[i]}, ignore_index = True)
+    denormalizedDf = denormalizedDf.append({'Sport': sports[i], 'Head Coach Gender': 'Woman', 'Percentage': percentageWomenCoaches[i]}, ignore_index = True)
+
+denormalizedDf.to_csv("data/breakdown_by_sport_denormalized.csv", index=False)
