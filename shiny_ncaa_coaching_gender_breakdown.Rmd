@@ -15,10 +15,12 @@ library(tidyverse)
 library(maps)
 library(plotly)
 library(plyr)
+library(leaflet)
 library(scales)
 knitr::opts_chunk$set(echo = TRUE)
 summaryData <- read.csv(file="data/summary_stats.csv", header = TRUE)
 breakdownBySportData <- read.csv(file="data/breakdown_by_sport_denormalized.csv", header = TRUE)
+breakdownBySchoolData <- read.csv(file="data/breakdown_by_school.csv", header = TRUE)
 ```
 
 Overview
@@ -39,7 +41,7 @@ fill <- c("#5F9EA0", "#E1B378")
 ggplot(summaryData, aes(x=Sport.Gender, y=Percentage, fill=fct_reorder(Coach.Gender, Percentage), label=paste0(Percentage,"%"))) + 
   geom_bar(stat="identity") +
   geom_text(size=4, position = position_stack(vjust = 0.5)) +
-  labs(x = "Sport Gender", title = "Comparing NCAA Men's and Women's Division I Sports by Coach's Gender", fill = "Coach Gender") +
+  labs(x = "Sport Gender", fill = "Coach Gender") +
   scale_y_continuous(labels = dollar_format(suffix = "%", prefix="")) +
   scale_fill_manual(values=fill)
 ```
@@ -122,7 +124,7 @@ selectInput("sport", label = "Sport", choices = c("Basketball" = "Basketball",
 Column
 -------------------------
 ### Coach Gender Breakdown By Sport
-<div style="height:50%;">
+<div style="height:50%; margin-bottom: 5rem;">
 ```{r, echo=FALSE}
 renderPlot({
 if(input$sport == "Baseball and Softball") {
@@ -134,7 +136,7 @@ activeSports <- ddply(activeSports, .(Head.Coach.Gender), transform, pos = cumsu
 ggplot(data=activeSports, aes(x=Sport, y=Percentage, fill=fct_reorder(Head.Coach.Gender, Percentage), label=paste0(Percentage,"%"))) +
     geom_bar(stat="identity") +
     geom_text(size=4, position=position_stack(vjust=0.5)) +
-    labs(x = "Sport", title = "Comparing NCAA Men's and Women's Division I Sports by Coach's Gender", fill = "Coach Gender") +
+    labs(x = "Sport", fill = "Head Coach Gender") +
     scale_y_continuous(labels = dollar_format(suffix = "%", prefix="")) +
     scale_fill_manual(values=fill) +
     coord_flip()
@@ -159,3 +161,44 @@ As seen in the chart above, even for the same or very similar sports, the number
 
 
 See the chart below for a comparison of coach genders in other NCAA DI sports:
+<div style="height:70%; margin-bottom: 5rem;">
+```{r, echo=FALSE}
+renderPlot({
+  otherSports <- subset(breakdownBySportData, Sport %in% c("Women's Beach Volleyball", "Field Hockey", "Men's Wrestling", "Women's Bowling", "Women's Rowing"))
+  otherSports <- ddply(otherSports, .(Head.Coach.Gender), transform, pos = cumsum(Percentage) - 0.5*Percentage)
+  ggplot(data=otherSports, aes(x=Sport, y=Percentage, fill=fct_reorder(Head.Coach.Gender, Percentage), label=paste0(Percentage,"%"))) +
+    geom_bar(stat="identity") +
+    geom_text(size=4, position=position_stack(vjust=0.5)) +
+    labs(x = "Sport", fill = "Head Coach Gender") +
+    scale_y_continuous(labels = dollar_format(suffix = "%", prefix="")) +
+    scale_fill_manual(values=fill)
+})
+```
+</div>
+
+Breakdown By School (Interactive Map)
+==========================
+```{r, echo=FALSE}
+# new column for the popup label
+  
+  breakdownBySchoolData <- mutate(breakdownBySchoolData, cntnt=paste0('<strong>School: </strong>', School,
+                                          '<br><strong>Number of DI Sports:</strong> ', Number.of.DI.Sports,
+                                          '<br><strong>Number of Men Head Coaches:</strong> ', Number.of.Men.Head.Coaches,
+                                          '<br><strong>Number of Women Head Coaches:</strong> ', Number.of.Women.Head.Coaches,
+                                          '<br><strong>Percentage Men Coaches:</strong> ', Percentage.Men.Coaches,
+                                          '<br><strong>Percentage Women Coaches:</strong> ', Percentage.Women.Coaches))
+
+# create the leaflet map
+renderLeaflet({
+    leaflet(breakdownBySchoolData) %>%
+    addCircles(lat = ~lat, lng = ~lng) %>%
+    addTiles() %>%
+    addCircleMarkers(data = breakdownBySchoolData, lat =  ~lat, lng = ~lng,
+                     radius = 4, popup = ~as.character(cntnt),
+                     stroke = FALSE, fillOpacity = 0.8)%>%
+    # addLegend(pal=pal, values=bb_data$Category,opacity=1, na.label = "Not Available")%>%
+    addEasyButton(easyButton(
+      icon="fa-crosshairs", title="ME",
+      onClick=JS("function(btn, map){ map.locate({setView: true}); }")))
+})
+```

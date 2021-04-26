@@ -4,9 +4,13 @@ from collections import OrderedDict
 coaches = pd.read_csv("data/coaches_duplicate_sports_removed.csv")
 coachGenders = coaches["gender"]
 schools = coaches["School"]
+lats = coaches["Latitude"]
+lngs = coaches["Longitude"]
 
 schoolsWithCoachGenderCounts = OrderedDict()
 schoolsWithTotalCount = OrderedDict()
+schoolLngs = OrderedDict()
+schoolLats = OrderedDict()
 for i in range(len(schools)):
     school = schools[i]
     if school in schoolsWithCoachGenderCounts.keys():
@@ -21,6 +25,10 @@ for i in range(len(schools)):
         else:
             schoolsWithCoachGenderCounts[school] = {"man": 0, "woman": 1}
         schoolsWithTotalCount[school] = 1
+        schoolLngs[school] = lngs[i]
+        schoolLats[school] = lats[i]
+
+# Add breakdown of men's and women's sports at each school?
 
 
 # Get counts of coach genders at each school
@@ -37,5 +45,5 @@ for s in schoolsWithTotalCount.keys():
     schoolsWithMenCoachPercentage[s] = schoolsWithCoachGenderPercentage[s]["man"]
     schoolsWithWomenCoachPercentage[s] = schoolsWithCoachGenderPercentage[s]["woman"]
 
-df = pd.DataFrame(data = { "School": list(schoolsWithTotalCount.keys()), "Number of Total Coaches": list(schoolsWithTotalCount.values()), "Number of Men Coaches": list(schoolsWithMenCoachCounts.values()), "Number of Women Coaches": list(schoolsWithWomenCoachCounts.values()), "Percentage Men Coaches": list(schoolsWithMenCoachPercentage.values()), "Percentage Women Coaches": list(schoolsWithWomenCoachPercentage.values()) })
+df = pd.DataFrame(data = { "School": list(schoolsWithTotalCount.keys()), "lat": list(schoolLats.values()), "lng": list(schoolLngs.values()), "Number of DI Sports": list(schoolsWithTotalCount.values()), "Number of Men Head Coaches": list(schoolsWithMenCoachCounts.values()), "Number of Women Head Coaches": list(schoolsWithWomenCoachCounts.values()), "Percentage Men Coaches": list(schoolsWithMenCoachPercentage.values()), "Percentage Women Coaches": list(schoolsWithWomenCoachPercentage.values()) })
 df.to_csv("data/breakdown_by_school.csv", index=False)
