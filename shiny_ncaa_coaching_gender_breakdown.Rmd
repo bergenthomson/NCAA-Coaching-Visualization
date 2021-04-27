@@ -188,15 +188,21 @@ Breakdown By School (Interactive Map)
                                           '<br><strong>Percentage Men Coaches:</strong> ', Percentage.Men.Coaches,
                                           '<br><strong>Percentage Women Coaches:</strong> ', Percentage.Women.Coaches))
 
+# Color palette for shading the points
+pal <- colorNumeric(
+  palette = "Oranges",
+  domain = breakdownBySchoolData$Percentage.Men.Coaches)
+
 # create the leaflet map
 renderLeaflet({
     leaflet(breakdownBySchoolData) %>%
     addCircles(lat = ~lat, lng = ~lng) %>%
     addTiles() %>%
     addCircleMarkers(data = breakdownBySchoolData, lat =  ~lat, lng = ~lng,
-                     radius = 4, popup = ~as.character(cntnt),
+                     radius = 8, popup = ~as.character(cntnt),
+                     color = ~pal(Percentage.Men.Coaches),
                      stroke = FALSE, fillOpacity = 0.8)%>%
-    # addLegend(pal=pal, values=bb_data$Category,opacity=1, na.label = "Not Available")%>%
+    addLegend(pal=pal, values=breakdownBySchoolData$Percentage.Men.Coaches,opacity=1, na.label = "Not Available", title = "Percentage Men Head Coaches")%>%
     addEasyButton(easyButton(
       icon="fa-crosshairs", title="ME",
       onClick=JS("function(btn, map){ map.locate({setView: true}); }")))
