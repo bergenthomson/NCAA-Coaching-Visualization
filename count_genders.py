@@ -16,7 +16,7 @@ for i in range(len(coachGenders)):
         print(sports[i])
     if sports[i] == "Mixed Rifle":
         continue
-    if "Men" in sports[i] or sports[i] in ["Football", "Baseball"]:     # Mixed rifle?
+    if "Men" in sports[i] or sports[i] in ["Football", "Baseball"]:
         coachGenderSportGender.append((coachGenders[i], "men"))
         numMenSports += 1
     if "Women" in sports[i] or sports[i] in ["Field Hockey", "Softball"]:

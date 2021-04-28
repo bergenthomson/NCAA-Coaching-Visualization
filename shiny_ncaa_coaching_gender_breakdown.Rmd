@@ -178,33 +178,64 @@ renderPlot({
 
 Breakdown By School (Interactive Map)
 ==========================
+Column {.sidebar}
+-------------------------
+```{r, echo=FALSE}
+selectInput("selection", label = "Coach and Sport Gender", 
+            choices = c("Percentage Total Sports Head Coached by a Man" = "Percentage Total Sports Head Coached by a Man",
+                        "Percentage Total Sports Head Coached by a Woman" = "Percentage Total Sports Head Coached by a Woman",
+                        "Percentage Men's Sports Head Coached by a Man" = "Percentage Men's Sports Head Coached by a Man",
+                        "Percentage Men's Sports Head Coached by a Woman" = "Percentage Men's Sports Head Coached by a Woman",
+                        "Percentage Women's Sports Head Coached by a Man" = "Percentage Women's Sports Head Coached by a Man",
+                        "Percentage Women's Sports Head Coached by a Woman" = "Percentage Women's Sports Head Coached by a Woman"),
+            selected = "Percentage Women's Sports Head Coached by a Woman")
+```
+
+Column{.body, height=6000}
+-------------------------
 ```{r, echo=FALSE}
 # new column for the popup label
-  
   breakdownBySchoolData <- mutate(breakdownBySchoolData, cntnt=paste0('<strong>School: </strong>', School,
                                           '<br><strong>Number of DI Sports:</strong> ', Number.of.DI.Sports,
                                           '<br><strong>Number of Men Head Coaches:</strong> ', Number.of.Men.Head.Coaches,
                                           '<br><strong>Number of Women Head Coaches:</strong> ', Number.of.Women.Head.Coaches,
                                           '<br><strong>Percentage Men Coaches:</strong> ', Percentage.Men.Coaches,
-                                          '<br><strong>Percentage Women Coaches:</strong> ', Percentage.Women.Coaches))
-
-# Color palette for shading the points
-pal <- colorNumeric(
-  palette = "Oranges",
-  domain = breakdownBySchoolData$Percentage.Men.Coaches)
+                                          '<br><strong>Percentage Women Coaches:</strong> ', Percentage.Women.Coaches,
+                                          '<br><strong>Percentage Men\'s Sports Coached By Men:</strong> ', Percentage.Men.s.Sports.Coached.By.Men,
+                                          '<br><strong>Percentage Men\'s Sports Coached By Women:</strong> ', Percentage.Men.s.Sports.Coached.By.Women,
+                                          '<br><strong>Percentage Women\'s Sports Coached By Men:</strong> ', Percentage.Women.s.Sports.Coached.By.Men,
+                                          '<br><strong>Percentage Women\'s Sports Coached By Women:</strong> ', Percentage.Women.s.Sports.Coached.By.Women))
 
 # create the leaflet map
-renderLeaflet({
+output$mymap = renderLeaflet({
+    if (input$selection == "Percentage Total Sports Head Coached by a Man") {
+      domain <- breakdownBySchoolData$Percentage.Men.Coaches
+    } else if (input$selection == "Percentage Total Sports Head Coached by a Woman") {
+      domain <- breakdownBySchoolData$Percentage.Women.Coaches
+    } else if (input$selection == "Percentage Men's Sports Head Coached by a Man") {
+      domain <- breakdownBySchoolData$Percentage.Men.s.Sports.Coached.By.Men
+    } else if (input$selection == "Percentage Men's Sports Head Coached by a Woman") {
+      domain <- breakdownBySchoolData$Percentage.Men.s.Sports.Coached.By.Women
+    } else if (input$selection == "Percentage Women's Sports Head Coached by a Man") {
+      domain <- breakdownBySchoolData$Percentage.Women.s.Sports.Coached.By.Men
+    } else {
+      domain <- breakdownBySchoolData$Percentage.Women.s.Sports.Coached.By.Women
+    }
+    # Color palette for shading the points
+    pal <- colorNumeric(
+      palette = "YlOrRd",
+      domain = domain)
     leaflet(breakdownBySchoolData) %>%
     addCircles(lat = ~lat, lng = ~lng) %>%
     addTiles() %>%
     addCircleMarkers(data = breakdownBySchoolData, lat =  ~lat, lng = ~lng,
                      radius = 8, popup = ~as.character(cntnt),
-                     color = ~pal(Percentage.Men.Coaches),
+                     color = ~pal(domain),
                      stroke = FALSE, fillOpacity = 0.8)%>%
-    addLegend(pal=pal, values=breakdownBySchoolData$Percentage.Men.Coaches,opacity=1, na.label = "Not Available", title = "Percentage Men Head Coaches")%>%
+    addLegend(pal=pal, values=domain,opacity=1, na.label = "Not Available", title = input$selection)%>%
     addEasyButton(easyButton(
       icon="fa-crosshairs", title="ME",
       onClick=JS("function(btn, map){ map.locate({setView: true}); }")))
 })
+leafletOutput('mymap', height=1000)
 ```

@@ -188,8 +188,8 @@ Spry,Ralph,2018-2019,Sep 2017 - ,Auburn University,Women's Cross Country,0.9958,
 Taylor,Gary,2018-2019,Jun 2018 - ,Auburn University,Men's Swimming and Diving,0.9962,0.0038,male,"Auburn, AL 36849",www.auburn.edu,32.60414,-85.48188
 Taylor,Gary,2018-2019,Jun 2018 - ,Auburn University,Women's Swimming and Diving,0.9962,0.0038,male,"Auburn, AL 36849",www.auburn.edu,32.60414,-85.48188
 Thompson,Butch,2018-2019,Nov 2015 - ,Auburn University,Baseball,1,0,male,"Auburn, AL 36849",www.auburn.edu,32.60414,-85.48188
-Hegg,Caroline,2018-2019,Feb 2015 - ,Augusta University,Women's Golf,0.0015,0.9985,female,"1120 15th St, Augusta, GA 30912",www.augusta.edu,48.33527,10.89905
-O'Keefe,Jack,2018-2019,Jan 2014 - ,Augusta University,Men's Golf,0.9969,0.0031,male,"1120 15th St, Augusta, GA 30912",www.augusta.edu,48.33527,10.89905
+Hegg,Caroline,2018-2019,Feb 2015 - ,Augusta University,Women's Golf,0.0015,0.9985,female,"1120 15th St, Augusta, GA 30912",www.augusta.edu,33.476619720459,-81.9849700927734
+O'Keefe,Jack,2018-2019,Jan 2014 - ,Augusta University,Men's Golf,0.9969,0.0031,male,"1120 15th St, Augusta, GA 30912",www.augusta.edu,33.476619720459,-81.9849700927734
 Brown,Ross,2018-2019,Sep 2012 - ,Austin Peay State University,Women's Tennis,0.9955,0.0045,male,"601 College St, Clarksville, TN 37044",www.apsu.edu,36.53326,-87.35407
 Brown,Ross,2018-2019,Sep 2012 - ,Austin Peay State University,Men's Tennis,0.9955,0.0045,male,"601 College St, Clarksville, TN 37044",www.apsu.edu,36.53326,-87.35407
 Brown,Valerie,2018-2019,Jul 2019 - ,Austin Peay State University,"Women's Track, Indoor",0.0027,0.9973,female,"601 College St, Clarksville, TN 37044",www.apsu.edu,36.53326,-87.35407
@@ -1119,21 +1119,21 @@ Wayne,Kimberly,2018-2019,Aug 2007 - ,Davidson College,Women's Lacrosse,0.0049,0.
 Willis,Chris,2018-2019,Mar 2011 - ,Davidson College,Women's Volleyball,0.8507,0.1493,male,"405 N. Main Street, Davidson, NC 28035",https://www.davidson.edu/,35.49929,-80.84842
 Young,John,2018-2019,Aug 2005 - ,Davidson College,Men's Swimming and Diving,0.9961,0.0039,male,"405 N. Main Street, Davidson, NC 28035",https://www.davidson.edu/,35.49929,-80.84842
 Young,John,2018-2019,Aug 2005 - ,Davidson College,Women's Swimming and Diving,0.9961,0.0039,male,"405 N. Main Street, Davidson, NC 28035",https://www.davidson.edu/,35.49929,-80.84842
-Adix-Zins,Tracie,2018-2019,Aug 2018 - ,DePaul University,Softball,0.0063,0.9937,female,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Ardizzone,Mark,2018-2019,Feb 1997 - Jul 2019,DePaul University,Women's Tennis,0.9967,0.0033,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Brothers,Matt,2018-2019,Oct 2007 - ,DePaul University,Men's Tennis,0.9997,0.0003,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Bruno,Doug,2018-2019,Aug 1988 - ,DePaul University,Women's Basketball,0.9998,0.0002,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Chastain,Erin,2018-2019,Mar 2007 - ,DePaul University,Women's Soccer,0.0267,0.9733,female,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Dopek,David,2018-2019,Feb 2011 - ,DePaul University,Women's Cross Country,0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Dopek,David,2018-2019,Aug 2010 - ,DePaul University,"Women's Track, Outdoor",0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Dopek,David,2018-2019,Aug 2010 - ,DePaul University,"Men's Track, Indoor",0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Dopek,David,2018-2019,Aug 2010 - ,DePaul University,"Women's Track, Indoor",0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Dopek,David,2018-2019,Feb 2011 - ,DePaul University,Men's Cross Country,0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Dopek,David,2018-2019,Aug 2010 - ,DePaul University,"Men's Track, Outdoor",0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Leitao,David,2018-2019,Apr 2015 - ,DePaul University,Men's Basketball,0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Plotkin,Mark,2018-2019,Feb 2018 - ,DePaul University,Men's Soccer,0.9967,0.0033,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Schiene,Martin,2018-2019,Sep 2017 - ,DePaul University,Men's Golf,0.995,0.005,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
-Zidek,Marie,2018-2019,Feb 2018 - ,DePaul University,Women's Volleyball,0.0046,0.9954,female,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,28.0373200000001,79.1375800000001
+Adix-Zins,Tracie,2018-2019,Aug 2018 - ,DePaul University,Softball,0.0063,0.9937,female,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Ardizzone,Mark,2018-2019,Feb 1997 - Jul 2019,DePaul University,Women's Tennis,0.9967,0.0033,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Brothers,Matt,2018-2019,Oct 2007 - ,DePaul University,Men's Tennis,0.9997,0.0003,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Bruno,Doug,2018-2019,Aug 1988 - ,DePaul University,Women's Basketball,0.9998,0.0002,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Chastain,Erin,2018-2019,Mar 2007 - ,DePaul University,Women's Soccer,0.0267,0.9733,female,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Dopek,David,2018-2019,Feb 2011 - ,DePaul University,Women's Cross Country,0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Dopek,David,2018-2019,Aug 2010 - ,DePaul University,"Women's Track, Outdoor",0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Dopek,David,2018-2019,Aug 2010 - ,DePaul University,"Men's Track, Indoor",0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Dopek,David,2018-2019,Aug 2010 - ,DePaul University,"Women's Track, Indoor",0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Dopek,David,2018-2019,Feb 2011 - ,DePaul University,Men's Cross Country,0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Dopek,David,2018-2019,Aug 2010 - ,DePaul University,"Men's Track, Outdoor",0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Leitao,David,2018-2019,Apr 2015 - ,DePaul University,Men's Basketball,0.9963,0.0037,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Plotkin,Mark,2018-2019,Feb 2018 - ,DePaul University,Men's Soccer,0.9967,0.0033,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Schiene,Martin,2018-2019,Sep 2017 - ,DePaul University,Men's Golf,0.995,0.005,male,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
+Zidek,Marie,2018-2019,Feb 2018 - ,DePaul University,Women's Volleyball,0.0046,0.9954,female,"1 E Jackson Blvd, Chicago, IL 60604",https://www.depaul.edu,41.92402,-87.6547263
 Atkinson,Bruce,2018-2019,Mar 2019 - ,Delaware State University,Women's Volleyball,0.9965,0.0035,male,"1200 N. Dupont Highway, Dover, DE 19901",www.desu.edu,39.18571,-75.54257
 Berry,Kari-Lei,2018-2019,Aug 2016 - Sep 2019,Delaware State University,Women's Lacrosse,,,female,"1200 N. Dupont Highway, Dover, DE 19901",www.desu.edu,39.18571,-75.54257
 Blandin,J.P.,2018-2019,Jul 2000 - ,Delaware State University,Baseball,,,male,"1200 N. Dupont Highway, Dover, DE 19901",www.desu.edu,39.18571,-75.54257
@@ -3275,30 +3275,30 @@ Tambroni,Jeff,2018-2019,Jul 2010 - ,Pennsylvania State University,Men's Lacrosse
 Walsh,Erica,2018-2019,Mar 2007 - ,Pennsylvania State University,Women's Soccer,0.0042,0.9958,female,,,40.8070900000001,-77.85887
 Washington,Coquese,2018-2019,Jun 2007 - Apr 2019,Pennsylvania State University,Women's Basketball,,,female,,,40.8070900000001,-77.85887
 Zinn,Jeff,2018-2019,Sep 2011 - ,Pennsylvania State University,Men's Tennis,0.9977,0.0023,male,,,40.8070900000001,-77.85887
-Beard,Michael,2018-2019,Dec 2012 - ,Pepperdine University,Men's Golf,0.9947,0.0053,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Dowling,Kristen,2018-2019,Aug 2019 - ,Pepperdine University,Women's Basketball,0.0089,0.9911,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Gibbs,Laurie,2018-2019,Aug 2003 - ,Pepperdine University,Women's Golf,0.0074,0.9926,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Hirtensteiner,Rick,2018-2019,Aug 2015 - ,Pepperdine University,Baseball,0.9982,0.0018,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Hunt,David,2018-2019,Aug 2017 - ,Pepperdine University,Men's Volleyball,0.9963,0.0037,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Milton-Jones,DeLisha,2018-2019,May 2017 - Aug 2019,Pepperdine University,Women's Basketball,0,1,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Mosqueda,Sylvia,2018-2019,Jun 2019 - ,Pepperdine University,Men's Cross Country,0.0037,0.9963,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Mosqueda,Sylvia,2018-2019,Jun 2019 - ,Pepperdine University,Women's Cross Country,0.0037,0.9963,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Mosqueda,Sylvia,2018-2019,Jun 2019 - ,Pepperdine University,"Women's Track, Indoor",0.0037,0.9963,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Mosqueda,Sylvia,2018-2019,Jun 2019 - ,Pepperdine University,"Women's Track, Outdoor",0.0037,0.9963,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Mosqueda,Sylvia,2018-2019,Jun 2019 - ,Pepperdine University,"Men's Track, Outdoor",0.0037,0.9963,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Nilsson,Per,2018-2019,Aug 2014 - ,Pepperdine University,Women's Tennis,1,0,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Radnoti,Robert,2018-2019,Sep 2006 - Jun 2019,Pepperdine University,Men's Cross Country,0.9959,0.0041,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Radnoti,Robert,2018-2019,Sep 2016 - Jun 2019,Pepperdine University,"Women's Track, Indoor",0.9959,0.0041,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Radnoti,Robert,2018-2019,Aug 2007 - Jun 2019,Pepperdine University,"Men's Track, Outdoor",0.9959,0.0041,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Radnoti,Robert,2018-2019,Sep 2006 - Jun 2019,Pepperdine University,Women's Cross Country,0.9959,0.0041,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Radnoti,Robert,2018-2019,Aug 2006 - Jun 2019,Pepperdine University,"Women's Track, Outdoor",0.9959,0.0041,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Romar,Lorenzo,2018-2019,Apr 2018 - ,Pepperdine University,Men's Basketball,0.9939,0.0061,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Schaechterle,Adam,2018-2019,Jul 2018 - ,Pepperdine University,Men's Tennis,0.9959,0.0041,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Schroeder,Terry,2018-2019,Nov 2012 - ,Pepperdine University,Men's Water Polo,0.8056,0.1944,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Sicoli,Marcio,2018-2019,Jun 2018 - ,Pepperdine University,Women's Beach Volleyball,1,0,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Spahn,Joe,2018-2019,May 2018 - Feb 2020,Pepperdine University,Women's Swimming and Diving,0.9745,0.0255,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Ward,Tim,2018-2019,Aug 2003 - ,Pepperdine University,Women's Soccer,0.9975,0.0025,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
-Wong,Scott,2018-2019,Jan 2015 - ,Pepperdine University,Women's Volleyball,0.9964,0.0036,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,51.4981800000001,-0.174549999999954
+Beard,Michael,2018-2019,Dec 2012 - ,Pepperdine University,Men's Golf,0.9947,0.0053,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Dowling,Kristen,2018-2019,Aug 2019 - ,Pepperdine University,Women's Basketball,0.0089,0.9911,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Gibbs,Laurie,2018-2019,Aug 2003 - ,Pepperdine University,Women's Golf,0.0074,0.9926,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Hirtensteiner,Rick,2018-2019,Aug 2015 - ,Pepperdine University,Baseball,0.9982,0.0018,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Hunt,David,2018-2019,Aug 2017 - ,Pepperdine University,Men's Volleyball,0.9963,0.0037,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Milton-Jones,DeLisha,2018-2019,May 2017 - Aug 2019,Pepperdine University,Women's Basketball,0,1,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Mosqueda,Sylvia,2018-2019,Jun 2019 - ,Pepperdine University,Men's Cross Country,0.0037,0.9963,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Mosqueda,Sylvia,2018-2019,Jun 2019 - ,Pepperdine University,Women's Cross Country,0.0037,0.9963,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Mosqueda,Sylvia,2018-2019,Jun 2019 - ,Pepperdine University,"Women's Track, Indoor",0.0037,0.9963,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Mosqueda,Sylvia,2018-2019,Jun 2019 - ,Pepperdine University,"Women's Track, Outdoor",0.0037,0.9963,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Mosqueda,Sylvia,2018-2019,Jun 2019 - ,Pepperdine University,"Men's Track, Outdoor",0.0037,0.9963,female,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Nilsson,Per,2018-2019,Aug 2014 - ,Pepperdine University,Women's Tennis,1,0,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Radnoti,Robert,2018-2019,Sep 2006 - Jun 2019,Pepperdine University,Men's Cross Country,0.9959,0.0041,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Radnoti,Robert,2018-2019,Sep 2016 - Jun 2019,Pepperdine University,"Women's Track, Indoor",0.9959,0.0041,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Radnoti,Robert,2018-2019,Aug 2007 - Jun 2019,Pepperdine University,"Men's Track, Outdoor",0.9959,0.0041,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Radnoti,Robert,2018-2019,Sep 2006 - Jun 2019,Pepperdine University,Women's Cross Country,0.9959,0.0041,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Radnoti,Robert,2018-2019,Aug 2006 - Jun 2019,Pepperdine University,"Women's Track, Outdoor",0.9959,0.0041,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Romar,Lorenzo,2018-2019,Apr 2018 - ,Pepperdine University,Men's Basketball,0.9939,0.0061,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Schaechterle,Adam,2018-2019,Jul 2018 - ,Pepperdine University,Men's Tennis,0.9959,0.0041,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Schroeder,Terry,2018-2019,Nov 2012 - ,Pepperdine University,Men's Water Polo,0.8056,0.1944,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Sicoli,Marcio,2018-2019,Jun 2018 - ,Pepperdine University,Women's Beach Volleyball,1,0,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Spahn,Joe,2018-2019,May 2018 - Feb 2020,Pepperdine University,Women's Swimming and Diving,0.9745,0.0255,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Ward,Tim,2018-2019,Aug 2003 - ,Pepperdine University,Women's Soccer,0.9975,0.0025,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
+Wong,Scott,2018-2019,Jan 2015 - ,Pepperdine University,Women's Volleyball,0.9964,0.0036,male,"24255 Pacific Coast Hwy, Malibu, CA 90263",www.pepperdine.edu/,34.0383110046387,-118.707557678223
 Barnum,Bruce,2018-2019,Feb 2015 - ,Portland State University,Football,0.9965,0.0035,male,"724 SW Harrison, Portland, OR 97201",www.pdx.edu,45.5133700000001,-122.68491
 Burton,Katie,2018-2019,Sep 2017 - ,Portland State University,Women's Soccer,0.002,0.998,female,"724 SW Harrison, Portland, OR 97201",www.pdx.edu,45.5133700000001,-122.68491
 Downs,Kailin,2018-2019,Nov 2013 - ,Portland State University,Women's Golf,0.097,0.903,female,"724 SW Harrison, Portland, OR 97201",www.pdx.edu,45.5133700000001,-122.68491
@@ -3493,27 +3493,27 @@ Volpe,Genny,2018-2019,Mar 2004 - ,Rice University,Women's Volleyball,0,1,female,
 Warren,Jon,2018-2019,Aug 2001 - ,Rice University,"Men's Track, Indoor",0.9921,0.0079,male,"6100 S Main St, Houston, TX 77005-1827",www.rice.edu,29.71903,-95.39805
 Warren,Jon,2018-2019,Aug 2001 - ,Rice University,Men's Cross Country,0.9921,0.0079,male,"6100 S Main St, Houston, TX 77005-1827",www.rice.edu,29.71903,-95.39805
 Warren,Jon,2018-2019,Aug 2001 - ,Rice University,"Men's Track, Outdoor",0.9921,0.0079,male,"6100 S Main St, Houston, TX 77005-1827",www.rice.edu,29.71903,-95.39805
-Baggett,Kevin,2018-2019,Jun 2012 - ,Rider University,Men's Basketball,0.9951,0.0049,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Barry,Jason,2018-2019,Oct 2013 - ,Rider University,Men's Golf,0.9948,0.0052,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Davis,Barry,2018-2019,Jul 2004 - ,Rider University,Baseball,0.9955,0.0045,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Feliciano,Chris,2018-2019,Mar 2011 - Jun 2019,Rider University,Women's Volleyball,0.8507,0.1493,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Fletcher,Steve,2018-2019,May 2001 - ,Rider University,Men's Swimming and Diving,0.9961,0.0039,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Fletcher,Steve,2018-2019,May 2001 - ,Rider University,Women's Swimming and Diving,0.9961,0.0039,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Hamer,Bob,2018-2019,Aug 2008 - ,Rider University,"Women's Track, Outdoor",0.9969,0.0031,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Hamer,Bob,2018-2019,Aug 2008 - ,Rider University,"Men's Track, Indoor",0.9969,0.0031,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Hamer,Bob,2018-2019,Aug 2008 - ,Rider University,Women's Cross Country,0.9969,0.0031,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Hamer,Bob,2018-2019,Aug 2008 - ,Rider University,"Men's Track, Outdoor",0.9969,0.0031,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Hamer,Bob,2018-2019,Aug 2008 - ,Rider University,"Women's Track, Indoor",0.9969,0.0031,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Hamer,Bob,2018-2019,Aug 2008 - ,Rider University,Men's Cross Country,0.9969,0.0031,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Hangey,John,2018-2019,Aug 2017 - ,Rider University,Men's Wrestling,0.9961,0.0039,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Hounsome,Drayson,2018-2019,May 2008 - ,Rider University,Women's Soccer,1,0,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Hussong,Lori,2018-2019,Sep 2000 - ,Rider University,Field Hockey,0.0024,0.9976,female,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Inverso,Charles,2018-2019,Mar 2011 - ,Rider University,Men's Soccer,0.9949,0.0051,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Milligan,Lynn,2018-2019,May 2007 - ,Rider University,Women's Basketball,0.187,0.813,female,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Ortega,Davon,2018-2019,Aug 2017 - ,Rider University,Softball,0.9673,0.0327,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Potkay,Douglas,2018-2019,Oct 2014 - ,Rider University,Women's Tennis,0.9965,0.0035,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Potkay,Douglas,2018-2019,Oct 2014 - ,Rider University,Men's Tennis,0.9965,0.0035,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
-Rotondo,Jeffrey,2018-2019,Jun 2019 - ,Rider University,Women's Volleyball,0.9962,0.0038,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,50.3273300000001,83.4543300000001
+Baggett,Kevin,2018-2019,Jun 2012 - ,Rider University,Men's Basketball,0.9951,0.0049,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Barry,Jason,2018-2019,Oct 2013 - ,Rider University,Men's Golf,0.9948,0.0052,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Davis,Barry,2018-2019,Jul 2004 - ,Rider University,Baseball,0.9955,0.0045,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Feliciano,Chris,2018-2019,Mar 2011 - Jun 2019,Rider University,Women's Volleyball,0.8507,0.1493,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Fletcher,Steve,2018-2019,May 2001 - ,Rider University,Men's Swimming and Diving,0.9961,0.0039,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Fletcher,Steve,2018-2019,May 2001 - ,Rider University,Women's Swimming and Diving,0.9961,0.0039,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Hamer,Bob,2018-2019,Aug 2008 - ,Rider University,"Women's Track, Outdoor",0.9969,0.0031,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Hamer,Bob,2018-2019,Aug 2008 - ,Rider University,"Men's Track, Indoor",0.9969,0.0031,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Hamer,Bob,2018-2019,Aug 2008 - ,Rider University,Women's Cross Country,0.9969,0.0031,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Hamer,Bob,2018-2019,Aug 2008 - ,Rider University,"Men's Track, Outdoor",0.9969,0.0031,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Hamer,Bob,2018-2019,Aug 2008 - ,Rider University,"Women's Track, Indoor",0.9969,0.0031,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Hamer,Bob,2018-2019,Aug 2008 - ,Rider University,Men's Cross Country,0.9969,0.0031,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Hangey,John,2018-2019,Aug 2017 - ,Rider University,Men's Wrestling,0.9961,0.0039,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Hounsome,Drayson,2018-2019,May 2008 - ,Rider University,Women's Soccer,1,0,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Hussong,Lori,2018-2019,Sep 2000 - ,Rider University,Field Hockey,0.0024,0.9976,female,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Inverso,Charles,2018-2019,Mar 2011 - ,Rider University,Men's Soccer,0.9949,0.0051,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Milligan,Lynn,2018-2019,May 2007 - ,Rider University,Women's Basketball,0.187,0.813,female,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Ortega,Davon,2018-2019,Aug 2017 - ,Rider University,Softball,0.9673,0.0327,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Potkay,Douglas,2018-2019,Oct 2014 - ,Rider University,Women's Tennis,0.9965,0.0035,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Potkay,Douglas,2018-2019,Oct 2014 - ,Rider University,Men's Tennis,0.9965,0.0035,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
+Rotondo,Jeffrey,2018-2019,Jun 2019 - ,Rider University,Women's Volleyball,0.9962,0.0038,male,"2083 Lawrence Road, Lawrenceville, NJ 08648-3099",www.rider.edu,40.2815512,-74.7404467
 Buscaglia,Charlie,2018-2019,Aug 2016 - ,Robert Morris University,Women's Basketball,0.8819,0.1181,male,"6001 University Boulevard, Moon Township, PA 15108-1189",www.rmu.edu,40.43866,-79.99434
 Clark,Bernard,2018-2019,Feb 2018 - ,Robert Morris University,Football,0.995,0.005,male,"6001 University Boulevard, Moon Township, PA 15108-1189",www.rmu.edu,40.43866,-79.99434
 Coleman,Craig,2018-2019,Sep 1990 - Dec 2018,Robert Morris University,Softball,0.9964,0.0036,male,"6001 University Boulevard, Moon Township, PA 15108-1189",www.rmu.edu,40.43866,-79.99434
@@ -3680,24 +3680,24 @@ Kinsey,Martin,2018-2019,Oct 2011 - ,Saint Mary's College of California,"Men's Tr
 Moore,Greg,2018-2019,Aug 2019 - ,Saint Mary's College of California,Baseball,0.998,0.002,male,"1928 Saint Marys Road, Moraga, CA 94575",https://www.stmarys-ca.edu,37.84299,-122.11408
 Thomas,Paul,2018-2019,Sep 2006 - ,Saint Mary's College of California,Women's Basketball,0.996,0.004,male,"1928 Saint Marys Road, Moraga, CA 94575",https://www.stmarys-ca.edu,37.84299,-122.11408
 Valenzuela,Eric,2018-2019,Sep 2013 - Jul 2019,Saint Mary's College of California,Baseball,0.9947,0.0053,male,"1928 Saint Marys Road, Moraga, CA 94575",https://www.stmarys-ca.edu,37.84299,-122.11408
-Dilio,Nick,2018-2019,Sep 2016 - Aug 2019,Saint Peter's University,Men's Golf,0.998,0.002,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Holloway,Shaheen,2018-2019,May 2018 - ,Saint Peter's University,Men's Basketball,0.7358,0.2642,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Kretzer,Mark,2018-2019,Oct 2016 - ,Saint Peter's University,Women's Swimming and Diving,0.9967,0.0033,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Kretzer,Mark,2018-2019,Oct 2016 - ,Saint Peter's University,Men's Swimming and Diving,0.9967,0.0033,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Marshall,John,2018-2019,May 2018 - ,Saint Peter's University,"Men's Track, Outdoor",0.9961,0.0039,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Marshall,John,2018-2019,May 2018 - ,Saint Peter's University,Men's Cross Country,0.9961,0.0039,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Marshall,John,2018-2019,May 2018 - ,Saint Peter's University,"Men's Track, Indoor",0.9961,0.0039,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Marshall,John,2018-2019,May 2018 - ,Saint Peter's University,"Women's Track, Indoor",0.9961,0.0039,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Marshall,John,2018-2019,May 2018 - ,Saint Peter's University,Women's Cross Country,0.9961,0.0039,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Marshall,John,2018-2019,May 2018 - ,Saint Peter's University,"Women's Track, Outdoor",0.9961,0.0039,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Martinez,Amable,2018-2019,Jul 2017 - Mar 2019,Saint Peter's University,Women's Volleyball,,,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Mitchell,Marc,2018-2019,May 2018 - ,Saint Peter's University,Women's Basketball,0.9959,0.0041,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Proietti,Lou,2018-2019,Jul 2019 - ,Saint Peter's University,Baseball,0.0934,0.9066,female,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Ramirez,Danny,2018-2019,Feb 2017 - Jul 2019,Saint Peter's University,Baseball,0.9944,0.0056,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Richens,Julian,2018-2019,May 2011 - ,Saint Peter's University,Men's Soccer,0.9824,0.0176,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Sherwood,Melissa,2018-2019,Feb 2016 - Aug 2020,Saint Peter's University,Women's Soccer,0.0031,0.9969,female,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Stelma,Chris,2018-2019,Oct 2016 - ,Saint Peter's University,Softball,0.8507,0.1493,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
-Yantin,Pedro,2018-2019,Apr 2019 - Sep 2019,Saint Peter's University,Women's Volleyball,0.9936,0.0064,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,11.67026,78.1580500000001
+Dilio,Nick,2018-2019,Sep 2016 - Aug 2019,Saint Peter's University,Men's Golf,0.998,0.002,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Holloway,Shaheen,2018-2019,May 2018 - ,Saint Peter's University,Men's Basketball,0.7358,0.2642,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Kretzer,Mark,2018-2019,Oct 2016 - ,Saint Peter's University,Women's Swimming and Diving,0.9967,0.0033,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Kretzer,Mark,2018-2019,Oct 2016 - ,Saint Peter's University,Men's Swimming and Diving,0.9967,0.0033,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Marshall,John,2018-2019,May 2018 - ,Saint Peter's University,"Men's Track, Outdoor",0.9961,0.0039,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Marshall,John,2018-2019,May 2018 - ,Saint Peter's University,Men's Cross Country,0.9961,0.0039,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Marshall,John,2018-2019,May 2018 - ,Saint Peter's University,"Men's Track, Indoor",0.9961,0.0039,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Marshall,John,2018-2019,May 2018 - ,Saint Peter's University,"Women's Track, Indoor",0.9961,0.0039,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Marshall,John,2018-2019,May 2018 - ,Saint Peter's University,Women's Cross Country,0.9961,0.0039,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Marshall,John,2018-2019,May 2018 - ,Saint Peter's University,"Women's Track, Outdoor",0.9961,0.0039,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Martinez,Amable,2018-2019,Jul 2017 - Mar 2019,Saint Peter's University,Women's Volleyball,,,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Mitchell,Marc,2018-2019,May 2018 - ,Saint Peter's University,Women's Basketball,0.9959,0.0041,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Proietti,Lou,2018-2019,Jul 2019 - ,Saint Peter's University,Baseball,0.0934,0.9066,female,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Ramirez,Danny,2018-2019,Feb 2017 - Jul 2019,Saint Peter's University,Baseball,0.9944,0.0056,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Richens,Julian,2018-2019,May 2011 - ,Saint Peter's University,Men's Soccer,0.9824,0.0176,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Sherwood,Melissa,2018-2019,Feb 2016 - Aug 2020,Saint Peter's University,Women's Soccer,0.0031,0.9969,female,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Stelma,Chris,2018-2019,Oct 2016 - ,Saint Peter's University,Softball,0.8507,0.1493,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
+Yantin,Pedro,2018-2019,Apr 2019 - Sep 2019,Saint Peter's University,Women's Volleyball,0.9936,0.0064,male,"2641 Kennedy Blvd, Jersey City, NJ 07306-5997",www.saintpeters.edu,40.7270317077637,-74.0718612670898
 Brown,Tom,2018-2019,Aug 2008 - ,Sam Houston State University,Women's Soccer,0.9969,0.0031,male,"1806 Ave J, Huntsville, TX 77340",www.shsu.edu/,30.71284,-95.5506599999999
 Deggs,Matt,2018-2019,Aug 2014 - Aug 2019,Sam Houston State University,Baseball,0.9997,0.0003,male,"1806 Ave J, Huntsville, TX 77340",www.shsu.edu/,30.71284,-95.5506599999999
 Gray,Brenda,2018-2019,Aug 2003 - ,Sam Houston State University,Women's Volleyball,0.0033,0.9967,female,"1806 Ave J, Huntsville, TX 77340",www.shsu.edu/,30.71284,-95.5506599999999
@@ -4247,20 +4247,20 @@ Reed,Roderick,2018-2019,Feb 2010 - ,Tennessee State University,Football,0.9935,0
 Sutton,Donika,2018-2019,Mar 2017 - ,Tennessee State University,Women's Volleyball,0,1,female,"3500 John A. Merritt Blvd, Nashville, TN 37209-1561",www.tnstate.edu,36.1668500000001,-86.82873
 Walker III,Monroe,2018-2019,Feb 2015 - Jan 2019,Tennessee State University,Men's Tennis,0.8943,0.1057,male,"3500 John A. Merritt Blvd, Nashville, TN 37209-1561",www.tnstate.edu,36.1668500000001,-86.82873
 Walker III,Monroe,2018-2019,Feb 2015 - Jan 2019,Tennessee State University,Women's Tennis,0.8943,0.1057,male,"3500 John A. Merritt Blvd, Nashville, TN 37209-1561",www.tnstate.edu,36.1668500000001,-86.82873
-Alexander,Dewayne,2018-2019,Feb 2018 - ,Tennessee Technological University,Football,0.9952,0.0048,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
-Angel,Wayne,2018-2019,Aug 2014 - Sep 2019,Tennessee Technological University,Women's Cross Country,0.9959,0.0041,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
-Angel,Wayne,2018-2019,Aug 2014 - Sep 2019,Tennessee Technological University,"Women's Track, Outdoor",0.9959,0.0041,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
-Angel,Wayne,2018-2019,Aug 2014 - Sep 2019,Tennessee Technological University,"Women's Track, Indoor",0.9959,0.0041,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
-Angel,Wayne,2018-2019,Aug 2014 - Sep 2019,Tennessee Technological University,Men's Cross Country,0.9959,0.0041,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
-Brown,Polk,2018-2019,Aug 2011 - ,Tennessee Technological University,Men's Golf,1,0,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
-Brown,Polk,2018-2019,Aug 2011 - ,Tennessee Technological University,Women's Golf,1,0,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
-Doyle,Kenny,2018-2019,Sep 2009 - ,Tennessee Technological University,Men's Tennis,0.9894,0.0106,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
-Graham,Bonnie,2018-2019,Feb 2013 - Sep 2019,Tennessee Technological University,Softball,0.008,0.992,female,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
-Holmes,Justin,2018-2019,Jul 2018 - Dec 2019,Tennessee Technological University,Baseball,0.9947,0.0053,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
-Payne,Steve,2018-2019,Jun 2011 - Apr 2019,Tennessee Technological University,Men's Basketball,0.9961,0.0039,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
-Rosamond,Kim,2018-2019,May 2016 - ,Tennessee Technological University,Women's Basketball,0.1546,0.8454,female,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
-Springthorpe,Steve,2018-2019,Feb 2014 - ,Tennessee Technological University,Women's Soccer,0.9961,0.0039,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
-Waldo,Jeannette,2018-2019,Feb 2018 - ,Tennessee Technological University,Women's Volleyball,0.0009,0.9991,female,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,9.02634000000006,-79.52932
+Alexander,Dewayne,2018-2019,Feb 2018 - ,Tennessee Technological University,Football,0.9952,0.0048,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
+Angel,Wayne,2018-2019,Aug 2014 - Sep 2019,Tennessee Technological University,Women's Cross Country,0.9959,0.0041,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
+Angel,Wayne,2018-2019,Aug 2014 - Sep 2019,Tennessee Technological University,"Women's Track, Outdoor",0.9959,0.0041,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
+Angel,Wayne,2018-2019,Aug 2014 - Sep 2019,Tennessee Technological University,"Women's Track, Indoor",0.9959,0.0041,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
+Angel,Wayne,2018-2019,Aug 2014 - Sep 2019,Tennessee Technological University,Men's Cross Country,0.9959,0.0041,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
+Brown,Polk,2018-2019,Aug 2011 - ,Tennessee Technological University,Men's Golf,1,0,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
+Brown,Polk,2018-2019,Aug 2011 - ,Tennessee Technological University,Women's Golf,1,0,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
+Doyle,Kenny,2018-2019,Sep 2009 - ,Tennessee Technological University,Men's Tennis,0.9894,0.0106,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
+Graham,Bonnie,2018-2019,Feb 2013 - Sep 2019,Tennessee Technological University,Softball,0.008,0.992,female,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
+Holmes,Justin,2018-2019,Jul 2018 - Dec 2019,Tennessee Technological University,Baseball,0.9947,0.0053,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
+Payne,Steve,2018-2019,Jun 2011 - Apr 2019,Tennessee Technological University,Men's Basketball,0.9961,0.0039,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
+Rosamond,Kim,2018-2019,May 2016 - ,Tennessee Technological University,Women's Basketball,0.1546,0.8454,female,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
+Springthorpe,Steve,2018-2019,Feb 2014 - ,Tennessee Technological University,Women's Soccer,0.9961,0.0039,male,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
+Waldo,Jeannette,2018-2019,Feb 2018 - ,Tennessee Technological University,Women's Volleyball,0.0009,0.9991,female,"1 William L. Jones Drive, Cookeville, TN 38505-0001",www.tntech.edu,36.1764373779297,-85.5060729980469
 Blair,Gary,2018-2019,Apr 2003 - ,"Texas A&M University, College Station",Women's Basketball,0.9962,0.0038,male,,,30.6127900000001,-96.3396
 Bultman,Steve,2018-2019,Aug 1999 - ,"Texas A&M University, College Station",Women's Swimming and Diving,0.9961,0.0039,male,,,30.6127900000001,-96.3396
 Childress,Rob,2018-2019,Jul 2005 - ,"Texas A&M University, College Station",Baseball,1,0,male,,,30.6127900000001,-96.3396
