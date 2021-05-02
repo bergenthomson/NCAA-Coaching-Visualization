@@ -1,12 +1,13 @@
 ---
-title: 'Gender Disparity in NCAA Coaching'
+title: 'Visualizing the Gender Disparity in NCAA Coaching'
 runtime: shiny
 output: 
   flexdashboard::flex_dashboard:
     source_code: "https://github.com/bergenthomson/NCAA-Coaching-Visualization"
     theme: bootstrap
-    logo: logo.png
+    # logo: logo.png
 ---
+
 
 ```{r setup, include=FALSE}
 library(shiny)
@@ -28,7 +29,7 @@ Overview
 
 Column
 -------------------------
-<div style="height:25%">
+<div style="height:25%; margin-left: 3rem; margin-top: 5rem;">
 “Women Coaches matter for a variety of reasons. Research shows that same sex role models positively influence self-perceptions. They challenge stereotypes about gender and leadership and offer diverse perspectives, insight and advice to their athletes. One hundred percent of male athletes have had a male Coaching role model during their athletic careers, to their benefit; young women likewise need and deserve more same sex role models.”<br>
 	- Nicole LaVoi, Ph. D., Director of Tucker Center for Research on Girls & Women in Sport
 </div>
@@ -42,16 +43,19 @@ ggplot(summaryData, aes(x=Sport.Gender, y=Percentage, fill=fct_reorder(Coach.Gen
   geom_bar(stat="identity") +
   geom_text(size=4, position = position_stack(vjust = 0.5)) +
   labs(x = "Sport Gender", fill = "Coach Gender") +
+  ggtitle("Percentage of Men's and Women's Coaches in \n Men's and Women's NCAA DI Sports") +
   scale_y_continuous(labels = dollar_format(suffix = "%", prefix="")) +
   scale_fill_manual(values=fill)
 ```
 </center>
 
+<div style="margin-left: 3rem;">
 Contrary to what one might expect with an issue like this, it has actually gotten worse over time. While the passing of Title IX was a monumental achievement in the prevention of sexual discrimination in athletics, ensuring equal funding and opportunities for men and women athletes, its passing inadvertently resulted in a huge shift in the opposite direction for women's coaching opportunities.
 
 
 
 Prior to Title IX, about 90% of women's sports were coached by women. When it passed, schools were suddenly required to pay a lucrative salary for coaching women's sports, and many men became interested in and were hired for these jobs, forcing women out of these positions.
+</div>
 
 Column
 -------------------------
@@ -63,6 +67,8 @@ Column
 
 </center>
 </div>
+
+<div style="margin-right: 3rem;">
 Across athletics in general, there is a major discrepancy between the number of male and female coaches. Many female athletes grow up without ever having a coach or role model who is the same gender as them. This can result in women not even knowing that coaching is a possible career path for them.
 
 
@@ -77,7 +83,7 @@ Looking at the NCAA specifically, a serious double standard exists. It is very c
 
 
 Similarly, around just 20% of NCAA athletic directors are female.
-
+</div>
 
 <div style="height:33%; margin-top: 1.7rem;">
 <center>
@@ -148,7 +154,7 @@ To further exemplify this disparity, it is useful to look at the same (or equiva
 
 
 
-As seen in the chart above, even for the same or very similar sports, the number of men head coaching women's sports often outweighs the number of women head coaching these sports. Furthermore, women coaching men in these sports is exceedingly rare. 
+As seen in the charts above, even for the same or very similar sports, the number of men head coaching women's sports often outweighs the number of women head coaching these sports. Furthermore, women coaching men in these sports is exceedingly rare. In fact, the majority of men's NCAA DI sports don't have a single woman coaching any of the programs.
 
 
 
@@ -157,11 +163,9 @@ As seen in the chart above, even for the same or very similar sports, the number
 
 
 
-***Insert factoid if any men's sports don't have a single woman as head coach***
-
 
 See the chart below for a comparison of coach genders in other NCAA DI sports:
-<div style="height:70%; margin-bottom: 5rem;">
+<div style="height:70%; width:80%; margin-left: auto; margin-right: auto; margin-bottom: 5rem;">
 ```{r, echo=FALSE}
 renderPlot({
   otherSports <- subset(breakdownBySportData, Sport %in% c("Women's Beach Volleyball", "Field Hockey", "Men's Wrestling", "Women's Bowling", "Women's Rowing"))
@@ -193,6 +197,7 @@ selectInput("selection", label = "Coach and Sport Gender",
 
 Column{.body, height=6000}
 -------------------------
+<h1 style="text-align: center;">How does your school compare?</h1>
 ```{r, echo=FALSE}
 # new column for the popup label
   breakdownBySchoolData <- mutate(breakdownBySchoolData, cntnt=paste0('<strong>School: </strong>', School,
