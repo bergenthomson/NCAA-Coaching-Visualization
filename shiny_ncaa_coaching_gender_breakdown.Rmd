@@ -63,7 +63,7 @@ Column
 <center>
   
 
-![Pat Summitt, Legendary University of Tennessee Women's Basketball Coach](images/pat-summitt.jpg){width=30%}
+![Dawn Staley, University of South Carolina Women's Basketball Coach](images/dawn_staley.jpeg){width=45%}
 
 </center>
 </div>
