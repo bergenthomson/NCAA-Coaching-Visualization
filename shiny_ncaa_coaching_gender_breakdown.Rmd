@@ -243,3 +243,17 @@ output$mymap = renderLeaflet({
 })
 leafletOutput('mymap', height=1000)
 ```
+
+
+
+Sources/References
+==========================
+[1] Directory Information. National Center for Education Statistics. (2019). https://nces.ed.gov/ipeds/SummaryTables/report/600?templateId=6000&year=2019&tt=institutional&instType=1. 
+
+[2] NCAA. (2021). NCAA Division I Head Coach APR Portfolio. https://web3.ncaa.org/aprsearch/coachAprSearch. 
+
+[3] Champion Magazine. (2017). Where Are the Women?: An NCAA Champion Feature. NCAA.org - The Official Site of the NCAA. https://www.ncaa.org/static/champion/where-are-the-women/#:~:text=Yet%20in%202016%2C%20while%20more,women's%20championships%20got%20their%20start.
+
+[4] Haigh, M. (n.d.). Why Women Coaches Matter. Athlete Assessments. https://www.athleteassessments.com/why-women-coaches-matter/. 
+
+[5] Elsesser, K. (2019, March 1). Here's Why Women's Teams Are Coached By Men. Forbes. https://www.forbes.com/sites/kimelsesser/2019/03/01/heres-why-womens-teams-are-coached-by-men/?sh=171aa85b3f9a. 
